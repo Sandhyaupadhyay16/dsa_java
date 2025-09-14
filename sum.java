@@ -17,4 +17,4 @@ public class sum {
         System.out.println("Sum of both numbers:"+ t.add(a,b));
 
     }
-    };
+}
