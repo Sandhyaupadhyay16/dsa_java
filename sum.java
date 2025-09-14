@@ -4,7 +4,7 @@ int add(int a, int b)
 {
     return a+b;
 
-}};
+}}
 public class sum {
     public static void main(String args[])
     { int a,b;
@@ -15,6 +15,7 @@ public class sum {
         System.out.print("Enter Second number:");
         b=s.nextInt();
         System.out.println("Sum of both numbers:"+ t.add(a,b));
+        s.close();
 
     }
 }
